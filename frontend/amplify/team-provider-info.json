@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chainquirywallet-dev-143932-authRole",
+      "UnauthRoleArn": "arn:aws:iam::619807296334:role/amplify-chainquirywallet-dev-143932-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::619807296334:role/amplify-chainquirywallet-dev-143932-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-chainquirywallet-dev-143932-deployment",
+      "UnauthRoleName": "amplify-chainquirywallet-dev-143932-unauthRole",
+      "StackName": "amplify-chainquirywallet-dev-143932",
+      "StackId": "arn:aws:cloudformation:us-east-1:619807296334:stack/amplify-chainquirywallet-dev-143932/cffac030-26bf-11ee-bc4a-0eb5fab6e083",
+      "AmplifyAppId": "d6dxzicafkw8n"
+    },
+    "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  }
+}
