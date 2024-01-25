@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .mobile_bg {
+    /* width: 381px; */
+    width: 100%; 
+    height: 812px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: static;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .space{
+    height: 20px;
+  }
+
+
+  .top_user_Peter_picture {
+    width: 42px;
+    height: 42px;
+    background: url("./image/p.png");
+    background-size:     cover;
+    opacity: 1;
+    position: relative;
+    top: 20;
+    left: 20px;
+    border-radius: 50%;
+  }
+
+
+  .top_user_Sean_picture {
+    width: 42px;
+    height: 42px;
+    background: url("./image/s.png");
+    background-size:     cover;
+    opacity: 1;
+    position: relative;
+    top: 20;
+    left: 20px;
+    border-radius: 50%;
+  }
+
+
+  .top_user_Victory_picture {
+    width: 42px;
+    height: 42px;
+    background: url("./image/v.png");
+    background-size:     cover;
+    opacity: 1;
+    position: relative;
+    top: 20;
+    left: 20px;
+    border-radius: 50%;
+  }
+
+
+  .top_user_name {
+    width: 88px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 28px;
+    left: 72px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    
+  }
+  .Button_position {
+    width: 80px;
+    height: 40px;
+    background: rgba(185,181,181,1);
+    padding: 8px 15px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 727px;
+    left: 16px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .Button_position1{
+    width: 90px;
+    height: 40px;
+    background: rgba(185,181,181,1);
+    padding: 8px 15px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 57px;
+    right: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .Button_nexttoken_position{
+    width: 80px;
+    height: 40px;
+    background: rgba(185,181,181,1);
+    padding: 8px 15px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 727px;
+    right: 16px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .Button_pretoken_position{
+    width: 110px;
+    height: 40px;
+    background: rgba(185,181,181,1);
+    padding: 8px 15px;
+    margin: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 727px;
+    right: 107px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .Button {
+    width: 50px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: middle;
+    
+  }
+  .list-subject {
+    width: 100%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    left: 28px;
+    opacity: 1;
+    text-align: left;
+  }
+  .name {
+    color: #100303;
+  }
+
+  .line-1 {
+    width: 380px;
+    height: 1px;
+    left: 20px;
+    background: black;
+    }
+    .line-2 {
+    border-top: 1px solid black;
+    }
+    .asset_line {
+        /*width: 326px;*/
+        width: 92%;
+        height: 1px;
+        background: rgba(219,215,215,0.7099999785423279);
+        position: absolute;
+        left: 28px;
+        overflow: hidden;
+      }
+  .crypto_box {
+    /*width: 326px;*/
+    width: 92%;
+    height: 97px;
+    background: rgba(200, 192, 192, 0.71);
+    opacity: 1;
+    position: absolute;
+    left: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+
+  .crypto_box_list {
+    /*width: 326px;*/
+    width: 92%;
+    height: 97px;
+    background: rgba(235, 231, 231, 0.826);
+    opacity: 1;
+    position: absolute;
+    left: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+  .crypto_box_event {
+    /*width: 326px;*/
+    width: 92%;
+    height: 103px;
+    background: rgba(219,215,215,0.7099999785423279);
+    opacity: 1;
+    position: absolute;
+    left: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+
+  .token_val {
+    width: 78%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 100px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+    word-break: break-all;
+  }
+  .event_val {
+    width: 78%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 35px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+    word-break: break-all;
+  }
+  .crypto_name {
+    width: 85%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 105px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    word-break: break-all;
+    cursor: pointer;
+  }
+  .crypto_val {
+    width: 100px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 105px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .crypto_trx {
+    width: 90%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 36px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    word-break: break-all;
+    cursor: pointer;
+  }
+
+
+  .crypto_trxval {
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    right: 5px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .crypto_trxdate {
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 36px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    cursor: pointer;
+    word-break: break-all;
+  }
+
+  .crypto_trxdetail_header {
+    width: 300px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .crypto_trxdetail_value {
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    right: 5px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+
+  .crypto_trxdetail_value1 {
+    width: 90%;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 26px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+    word-break: break-all;
+  }
+
+  .crypto_trxdetail_text {
+    width: 470px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    right: 5px;
+    font-family: sans-serif;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .BITCOIN {
+    width: 60px;
+    height: 60px;
+    background: url("./image/bitcoin.png");
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .ETHEREUM {
+    width: 60px;
+    height: 60px;
+    background: url("./image/eth.jpeg");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .NFT {
+    width: 60px;
+    height: 60px;
+    background: url("./image/nft.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .ERC20 {
+    width: 60px;
+    height: 60px;
+    background: url("./image/erc20.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .complete_icon {
+    width: 30px;
+    height: 30px;
+    background: url("./image/complete.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 100px;
+    border-radius: 50%;
+  }
+
+
+  .customer_box {
+    /*width: 326px;*/
+    width: 92%;
+    height: 97px;
+    background: rgba(219,215,215,0.7099999785423279);
+    opacity: 1;
+    position: absolute;
+    left: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .customer_name {
+    width: 200px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    left: 125px;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+    cursor: pointer;
+  }
+
+
+  .Sean {
+    width: 65px;
+    height: 65px;
+    background: url("./image/s.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .Victory {
+    width: 65px;
+    height: 65px;
+    background: url("./image/v.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .Peter {
+    width: 65px;
+    height: 65px;
+    background: url("./image/p.png");
+    background-size: contain;
+    opacity: 1;
+    position: absolute;
+    
+    left: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  .alert_box {
+    /*width: 326px;*/
+    width: 92%;
+    height: 97px;
+    background: rgba(162, 169, 238, 0.739);
+    opacity: 1;
+    position: absolute;
+    left: 28px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .alert-subject {
+    width: 100%;
+    height: 87px;
+    left : 10px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: Bold;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .list-area {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    overflow: scroll;
+  }
+
+  .token-list-area {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    overflow: scroll;
+  }
+
+  .event-list-area {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    overflow: scroll;
+  }

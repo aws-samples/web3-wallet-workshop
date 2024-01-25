@@ -1,0 +1,20 @@
+{
+    "tokenBalances": [
+        {
+            "ownerIdentifier": {
+                "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+            },
+            "tokenIdentifier": {
+                "network": "BITCOIN_MAINNET",
+                "tokenId": "btc"
+            },
+            "balance": "72.66902535",
+            "atBlockchainInstant": {
+                "time": "2023-08-09T01:21:15+00:00"
+            },
+            "lastUpdatedTime": {
+                "time": "2023-08-08T16:27:33+00:00"
+            }
+        }
+    ]
+}
